@@ -1,0 +1,31 @@
+[project]
+name = "test"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "fastapi==0.104.1",
+    "uvicorn[standard]==0.24.0",
+    "sqlalchemy==2.0.23",
+    "alembic==1.12.1",
+    "psycopg2-binary==2.9.9",
+    "celery==5.3.4",
+    "redis==5.0.1",
+    "python-multipart==0.0.6",
+    "pymupdf==1.23.5",
+    "pdf2image==1.16.3",
+    "pytesseract==0.3.10",
+    "pillow==10.1.0",
+    "python-magic==0.4.27",
+    "sentry-sdk==1.40.0",
+    "python-dotenv>=1.2.1",
+    "pdfplumber>=0.11.8",
+    "img2pdf>=0.6.3",
+    "streamlit>=1.51.0",
+]
+
+
+[[tool.uv.index]]
+url = "https://pypi.tuna.tsinghua.edu.cn/simple"
+default = true
